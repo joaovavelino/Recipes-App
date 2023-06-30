@@ -1,0 +1,64 @@
+.container {
+  align-items: center;
+  background-color: red;
+  display: flex;
+  flex-direction: column;
+  height: 120vh;
+  padding: 0 25px;
+  width: 100%;
+}
+
+.school {
+  color: white;
+  font-size: 12px;
+  font-weight: 500;
+  height: 15%;
+  margin: 10px;
+}
+
+.logo {
+  margin-bottom: 20px;
+}
+
+.input {
+  align-self: auto;
+  border: none;
+  border-radius: 15px;
+  border-width: 0;
+  margin-top: 5px;
+  padding: 5px;
+  text-align: center;
+  width: 100%;
+}
+
+::placeholder {
+  color: #767676;
+  text-align: center;
+}
+
+.button {
+  align-self: auto;
+  background-color: #ebc306;
+  border: none;
+  border-radius: 15px;
+  border-width: 0;
+  color: white;
+  font-weight: 500;
+  margin-top: 5px;
+  padding: 5px;
+  transition: 0.5s;
+  width: 100%;
+}
+
+button:disabled {
+  background-color: #ebc5067e;
+}
+
+.bottom {
+  align-self: auto;
+  color: white;
+  font-size: 12px;
+  font-weight: 500;
+  margin: 5px;
+  margin-top: auto;
+}

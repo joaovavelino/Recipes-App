@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Galada&family=IM+Fell+English&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap') ;
+
+.container-details {
+  align-items: center;
+  color: black;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  max-width: 100%;
+  padding: 10px;
+}
+
+.container-title {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+}
+
+.image {
+  border: 3px solid #ebc306;
+  border-radius: 5%;
+  box-shadow: 2px 2px 6px 1px rgba(0, 0, 0, 0.2);
+  margin-bottom: 10px;
+  width: 340px;
+}
+
+.title {
+  color: red;
+  font-family: Galada , cursive;
+  font-size: 25px;
+  margin-bottom: 0;
+  max-width: 19ch;
+  overflow: hidden;
+  padding-top: 5px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.title-details {
+  color: red;
+  font-family: Galada , cursive;
+  font-size: 25px;
+  margin-bottom: 0;
+  padding-top: 5px;
+  text-align: center;
+}
+
+.category {
+  font-style: italic;
+}
+
+.share-button {
+  background-color: transparent;
+  border: none;
+  height: 22px;
+  margin: 5px;
+  width: 22px;
+}
+
+.share-icon {
+  height: auto;
+  width: 22px;
+}
+
+.like-button {
+  background-color: transparent;
+  border: none;
+  height: 22px;
+  margin: 5px;
+  width: 22px;
+}
+
+.like-icon {
+  height: auto;
+  width: 22px;
+}
+
+.ingredients {
+  background-color: red;
+  border: 3px solid #ebc306;
+  border-radius: 25px;
+  color: white;
+  padding: 10px;
+}
+
+.riscado {
+  text-decoration: line-through;
+}
+
+.container-instructions {
+  padding-bottom: 50px;
+}
+
+.instructions {
+  background-color: red;
+  border: 3px solid #ebc306;
+  border-radius: 25px;
+  color: white;
+  padding: 10px;
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+.video-details {
+  height: 100vh;
+  width: 100%;
+}
+
+/* .container-carousel {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+} */
+
+.carousel {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  padding-bottom: 60px;
+  width: 100%;
+}
+
+.not-visible {
+  display: none;
+}
+
+.container-start-recipe-btn {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.start-recipe-btn, .finish-recipe-btn {
+  align-items: center;
+  background-color: red;
+  border: none;
+  bottom: 0;
+  box-shadow: 12px 12px 24px 6px black;
+  color: #ebc306;
+  display: flex;
+  font-family: Galada , cursive;
+  font-size: 28px;
+  height: 45px;
+  justify-content: space-around;
+  left: 0;
+  position: fixed;
+  width: 100%;
+}

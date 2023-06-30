@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Galada&family=IM+Fell+English&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap') ;
+
+.container-header {
+  align-items: center;
+  background-color: red;
+  display: flex;
+  flex-direction: column;
+  padding: 15px 15px 0;
+  width: 100%;
+}
+
+.container-header-top {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.profile-button {
+  background-color: transparent;
+  border: 1.5px solid white;
+  border-radius: 50px;
+  color: white;
+  height: 30px;
+  width: 30px;
+}
+
+.profile-icon {
+  filter: invert(91%) sepia(82%) saturate(21%)
+    hue-rotate(334deg) brightness(107%) contrast(104%);
+  height: auto;
+  width: 20px;
+}
+
+.title-header {
+  color: #ebc306;
+  font-family: Galada , cursive;
+  font-size: 40px;
+  margin: 0;
+  text-align: center;
+}
+
+.container-header-bottom {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+}
+
+.search-button {
+  background-color: transparent;
+  border: 1.5px solid white;
+  border-radius: 50px;
+  height: 30px;
+  width: 30px;
+}
+
+.search-icon {
+  filter: invert(91%) sepia(82%) saturate(21%)
+    hue-rotate(334deg) brightness(107%) contrast(104%);
+  height: auto;
+  width: 20px;
+}
+
+.search-input {
+  border: none;
+  border-radius: 15px;
+  border-width: 0;
+  margin: 5px 15px 15px;
+  padding: 5px;
+}
+
+.container-search-bar {
+  color: white;
+  padding: 15px 0;
+}
+
+.search-bar-button {
+  background-color: #ebc306;
+  border: none;
+  border-radius: 15px;
+  border-width: 0;
+  color: white;
+  font-weight: 500;
+  margin: 15px 0;
+  padding: 5px;
+  width: 100%;
+}
+
+input {
+  accent-color: #ebc306;
+  margin-right: 3px;
+}

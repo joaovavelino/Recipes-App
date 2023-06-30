@@ -1,0 +1,22 @@
+footer {
+  bottom: 0;
+  position: fixed;
+  width: 100%;
+}
+
+.container-footer {
+  align-items: center;
+  background-color: red;
+  box-shadow: 12px 12px 24px 6px black;
+  display: flex;
+  height: 65px;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.footer-icon {
+  filter: invert(91%) sepia(82%) saturate(21%)
+    hue-rotate(334deg) brightness(107%) contrast(104%);
+  height: auto;
+  width: 45px;
+}

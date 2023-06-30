@@ -1,0 +1,196 @@
+.container-done {
+  align-items: center;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  width: 100%;
+}
+
+.container-cards-done {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  padding-bottom: 10px;
+}
+
+.container-title-done {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+}
+
+.card-done {
+  background-color: red;
+  border: 3px solid #ebc306;
+  border-radius: 15px;
+  box-shadow: 2px 2px 6px 1px rgba(0, 0, 0, 0.2);
+  margin: 5px;
+  padding: 2px;
+  width: 330px;
+}
+
+.card-image-done {
+  border-radius: 12px 12px 0 0;
+  width: 100%;
+}
+
+.card-name-done {
+  font-size: 20px;
+  font-weight: 600;
+  margin: 4px;
+  margin-bottom: 0;
+  max-width: 21ch;
+  overflow: hidden;
+  padding-top: 1.5px;
+  text-decoration: none;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.share-button-done {
+  background-color: transparent;
+  border: none;
+  height: 22px;
+  margin: 5px;
+  width: 22px;
+}
+
+.share-icon-done {
+  filter: invert(91%) sepia(82%) saturate(21%)
+    hue-rotate(334deg) brightness(107%) contrast(104%);
+  height: 22px;
+  width: 22px;
+}
+
+.like-button-done {
+  background-color: transparent;
+  border: none;
+  height: 22px;
+  margin: 5px;
+  width: 22px;
+}
+
+.like-icon-done {
+  filter: invert(91%) sepia(82%) saturate(21%)
+    hue-rotate(334deg) brightness(107%) contrast(104%);
+  height: 22px;
+  width: 22px;
+}
+
+.card-type-done, .card-date-done {
+  font-size: 16px;
+  font-style: italic;
+  font-weight: 500;
+  margin: 0 4px;
+  padding: 0;
+  text-decoration: none;
+}
+
+.card-date-done {
+  font-size: 14px;
+  text-align: center;
+}
+
+.container-tags-done {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  margin: 10px;
+}
+
+.tags-done {
+  background-color: #ebc306;
+  border: none;
+  border-radius: 8px;
+  color: white;
+  font-size: 12px;
+  font-weight: 500;
+  margin: 2px;
+  padding: 4px;
+}
+
+.container-profile-buttons, .container-explore-buttons {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 20px 0;
+  width: 100%;
+}
+
+.profile-buttons, .profile-buttons-logout {
+  align-self: center;
+  background-color: red;
+  border: none;
+  border-radius: 15px;
+  border-width: 0;
+  color: white;
+  font-size: 20px;
+  margin: 5px 30px;
+  padding: 10px;
+  width: 300px;
+}
+
+.profile-buttons-logout {
+  margin-top: 180px;
+}
+
+.info {
+  color: black;
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 0;
+  margin-top: 25px;
+  text-align: center;
+}
+
+.email {
+  color: red;
+  font-size: 20px;
+  font-style: italic;
+  padding-bottom: 10px;
+  text-align: center;
+}
+
+.explore-buttons {
+  align-self: center;
+  background-color: red;
+  border: none;
+  border-radius: 15px;
+  border-width: 0;
+  color: white;
+  font-size: 20px;
+  margin: 5px 30px;
+  padding: 10px;
+  width: 300px;
+}
+
+.container-explore-ingredients {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  margin: 30px auto;
+  padding-bottom: 60px;
+  width: 340px;
+}
+
+.card-explore {
+  margin: 5px;
+}
+
+.card-explore-button {
+  background-color: #ebc306;
+  border: 3px solid red;
+  border-radius: 15px;
+  box-shadow: 2px 2px 6px 1px rgba(0, 0, 0, 0.2);
+  height: 150px;
+  width: 150px;
+}
+
+.card-explore-title {
+  color: white;
+  font-size: 14px;
+  font-style: italic;
+  font-weight: 500;
+  text-decoration: none;
+}
